@@ -1,0 +1,109 @@
+#page {
+	min-height:100vh; /* 1 */
+	display:flex; /* 2 */
+	flex-direction:column; /* 3 */
+}
+
+#content {
+	flex-grow:1; /* 4 */
+}
+/* ajouter section nav */
+
+.flexContainer {
+    display: flex;
+}
+.flexItem {
+    flex: 1;
+}
+.flexStart {
+    justify-content: flex-start;
+}
+.flexEnd {
+    justify-content: flex-end;
+}
+.blueBackground {
+    background: lightskyblue;
+}
+.nav {
+    list-style: none;
+}
+.nav a {
+    text-decoration: none;
+    display: block;
+    padding: 0 1em;
+    color: white;
+}
+
+/** Bloc CSS */
+#Bloc 
+{ 
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.bloc:nth-child(2) /* On prend le deuxième bloc élément */
+
+{
+
+    background-color: blue;
+
+    align-self: flex-end; /* Seul ce bloc sera aligné à la fin */
+
+}
+
+#Bloc .img {
+	width: 1000px;
+	display: block;
+}
+/*ajouter div align; center*/
+/*input decoration
+.input {
+  display: block;
+	box-sizing: border-box;
+	/**margin-left: 50%;
+	width: 500px;
+	height: 40px;
+}
+.input:hover {
+	border-raduis: 2px;
+	box-shadow: 2px, 4px, 6px, 3px;
+}
+/* button background
+background- */
+
+/* footer */ 
+
+/**
+#footer{
+	/**
+    position: fixed;
+	bottom: 0px;
+	height: 40px;
+	color: grey
+	background: #a9a9a9;
+	text-decoration: underline;
+	cursor: pointer;
+	*/
+	/**
+    display: flex;
+ 	align-items: flex-end;
+ 	height: 55%;
+ 	
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+#footer {
+  flex: 3;
+}
+
+/**
+.footerL {
+	font-size: 1.2em;
+}
+.footerR {
+	font-size: 0.8em;
+}

@@ -1,60 +1,68 @@
-
 <html>
 <head>
  <meta charset="UTF-8"> 	
+ <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <link rel="stylesheet" type="text/css" href="google.css" media="all"/>
 </head>
-<!-- NAVBAR -->
-<!-- NavBar : créer une barre de navigation alignée à droite-->
-<nav>
-<div class="NavBar">
 
-    <div>Gmail</div>
-    <div>Images</div>
-    <div>Icone</div>
-    <div>Connexion</div>
+		<div id="page">
+			<!--HEADER-->
+			<div id="header">
+		    <ul class="nav flexContainer flexEnd">
+		        <li><a href="#">Gmail</a></li>
+		        <li><a href="#">Images</a></li>
+		        <li><a href="#">Logo</a></li>
+		        <li><a href="#" class="button glow-button" target="_blank">Connexion</a></li>
+		    </ul>
+			</div>
+			<!-- CONTENT -->
+
+			<div class="flex-container">
+			        <div class="flex-item">	
+					<!-- Insérer l'image Google au milieu du bloc -->	        		
+			        	<img id="img" src="http://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"><br>
+			        </div>
+			        <!-- Barre de recherche -->
+				    <div class="flex-item">
+						<input class="input" type="search" id="site-search" name="q"><br>
+					</div>
+
+			        <div class="flex-item">				
+			        <!-- Créer deux buttons aligner en CSS -->
+				        <button>Recherche Google</button> 
+				        <button>J'ai de la chance</button>
+					</div>
+			        
+			</div>
+
+		</div>
+
+		<!--FOOTER-->
+			<div class="ie-stickyFooter">
+			<nav class="flexContainer2 greyBackground">
+		<!-- Background color : Grey avec un premier bloc avec France en bas à gauche -->
+					<ul class="nav2 flexItem2 flexStart2">
+					<li><a href="#">France</a></li>
+			   		</ul>
+			</nav>
+		<!-- Second footer-->
+			<nav class="flexContainer2 greyBackground">
+			<hr/>
+			<ul class="nav2 flexItem2 flexStart2">
+				<li><a href="#">Publicité</a></li>
+		        <li><a href="#">Entreprise</a></li>
+		        <li><a href="#">À propos</a></li>    
+		    </ul>
+			<hr/>
+		    <ul class="nav2 flexContainer2 flexEnd2">
+		        <li><a href="#">Info consommateurs</a></li>
+		        <li><a href="#">Confidentialité</a></li>
+		        <li><a href="#">Conditions</a></li>
+		        <li><a href="#">Paramètres</a></li>	    
+		    </ul>
+			</nav>
+		</div>
 </div>
-
-</nav>
-<!-- ENDNAVBAR -->
-
-<!-- CONTENT -->
-<!-- Centrer un bloc au milieu de la page -->
-<div class="Bloc">
-
-<!-- Insérer l'image Google au milieu du bloc -->
-	    <img src="http://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png">
-
-<!-- Créer la barre de recherche, avec un shadow lors du pass over de la souris -->
-<input type="search" id="site-search" name="q">
-<!-- Créer deux buttons aligner en CSS -->
-<button>Recherche Google</button> <button>J'ai de la chance</button>
-<!-- ENDCONTENT -->
-</div>
-
-<!-- FOOTER -->
-<div id="footer">
-<!-- Background color : Grey avec un premier bloc avec France en bas à gauche -->
-    <div>France</div>
-</div>
-<!-- Bloc de gauche -->
-<div class="footerL">
-
-    <div>Publicité</div>
-    <div>Entreprise</div>
-    <div>À propos</div>
-</div>
-
-<!-- Bloc de droite -->
-<div class="footerR">
-
-    <div>Info consommateurs</div>
-    <div>Confidentialité</div>
-    <div>Conditions</div>
-    <div>Paramètres</div>
-</div>
-<!-- ENDFOOTER -->
-</div>
-
 
 </html>
+
