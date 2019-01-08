@@ -1,10 +1,41 @@
-#conteneur
-{
-    display: flex-start;
-    
+/* ajouter section nav*/
+nav {
+	height: 20px;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+}
+nav :hover { text-decoration: underline;
+	cursor: pointer;
 }
 
-#conteneur.element:nth-child(2)
-{
-    flex: 1;
+.Bloc { text-align: center;
 }
+/*ajouter div align; center*/
+/*input decoration*/
+input {
+
+	width: 50%;
+	height: 15px;
+}
+input:hover {
+	border-raduis: 2px;
+	box-shadow: 2px, 4px, 6px, 3px;
+
+/* button background
+background- */
+
+
+
+/* footer */
+.footer { 
+	height: 40px;
+	color: grey
+	background: #a9a9a9;
+	text-decoration: underline;
+	cursor: pointer;
+	
+}
+.
+
+
