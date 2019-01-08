@@ -1,3 +1,6 @@
+body {
+
+}
 /* ajouter section nav*/
 nav {
 	height: 20px;
@@ -10,6 +13,7 @@ nav :hover { text-decoration: underline;
 }
 
 .Bloc { text-align: center;
+	
 }
 /*ajouter div align; center*/
 /*input decoration*/
@@ -25,17 +29,18 @@ input:hover {
 /* button background
 background- */
 
-
-
 /* footer */
 .footer { 
 	height: 40px;
 	color: grey
 	background: #a9a9a9;
 	text-decoration: underline;
-	cursor: pointer;
-	
+	cursor: pointer;	
 }
-.
+.footerL {
+	font-size: 1.2em;
+}
+.footerR {
+	font-size: 0.8em;
 
 
