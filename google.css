@@ -106,8 +106,8 @@
     display: flex;
 }
 .flexItem2 {
-    flex: 1;
-   flex-direction: row;
+  flex: 1;
+  flex-direction: row;
   }
 .flexStart2 {
   display: flex;
@@ -130,8 +130,6 @@
     padding: 0 1em;
     color: #5F6368;
     font-family: Arial;
-
-
 }
 
 hr {
