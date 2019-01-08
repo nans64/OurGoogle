@@ -11,24 +11,24 @@
 /**Button*/
 
 .button {
-  text-decoration: none;
-  color: white;
-  background: #4285F4;
-  padding: 30px 40px;
-  border-radius: 4px;
-  font-weight: normal;
-  text-transform: uppercase;
-  transition: all 0.2s ease-in-out;
+    /** HAS TO BE ADDED**/
+   border: 1px solid #4285f4
+;
+   font-weight: bold;
+   outline: none;
+   background: #4285f4
+;
+    display: inline-block;
+   line-height: 28px;
+   padding: 0 12px;
+    
+}.ab {
+        color: white !important;
 }
-
-.glow-button:hover {
-  color: rgba(255, 255, 255, 1);
-  box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
-}
-
 /** Header */
 .flexContainer {
     display: flex;
+    align-items: center;
 }
 .flexItem {
     flex: 1;
@@ -46,7 +46,9 @@
     text-decoration: none;
     display: block;
     padding: 0 1em;
-    color: black;
+    color: black ;
+    font-family: arial;
+    font-size: 13px;
 }
 
 /** CONTENT */
