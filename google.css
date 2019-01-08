@@ -1,0 +1,10 @@
+#conteneur
+{
+    display: flex-start;
+    
+}
+
+#conteneur.element:nth-child(2)
+{
+    flex: 1;
+}
